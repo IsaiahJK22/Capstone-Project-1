@@ -3,11 +3,17 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Inter:wght@100;300;600&display=swap" rel="stylesheet">
 
 :root{
-    --sm-font:'Inter', sans-serif;
+     --sm-font:'Inter', sans-serif;
+     --lg-font: 'Cinzel Decorative', cursive;
+     --md-font: 'Inter', sans-serif;
 }
 
+/*--===Home Page Style==--*/
 body{
     font-family: var(--sm-font);
 }
@@ -16,3 +22,73 @@ body{
 .bg-primary{
     background-color: red!important; 
 }
+
+.btn:not(.nav-btns button){
+    background-color: white;
+    color: black;
+    padding: 10px 28px;
+    border-radius: 25px;
+    border: 1px solid rgb(85, 85, 85)
+}
+
+.btn:not(.nav-btns button):hover{
+    background-color: black;
+    color:white;
+    border-color: var(white)
+}
+
+.btn:not()
+
+/* Navbar */
+.navbar{
+    box-shadow: 0 3px 9px 3px rgba(0,  0, 0, .1);
+}
+
+.navbar{
+    
+}
+/*--==Header==--*/
+#header{
+    background: url(/images/DreamOfBeatingMe.jpg) top/cover no-repeat;
+}
+
+.carousel-inner h1{
+    font-size: 70px;
+    font-family: var(--lg-font)
+}
+
+/*--==Curated Products Line--==*/
+.title h2::before{
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 50px;
+    background-color: var(black);
+    left: -20-px
+}
+
+/*--==All Product Page Style==--*/
+
+
+/*--==Gloves Page Style==--*/
+
+
+/*--==Wraps Page Style==--*/
+
+
+/*--==Shin Guards Page Style==--*/
+
+
+/*--==Shoes Page Style==--*/
+
+
+/*--==Tutorials Page Style==--*/
+
+
+/*--==User Registration Page Style==--*/
+
+
+/*--==User Login Page Style==--*/
+
+
+/*--==Checkout Page Style==--*/
