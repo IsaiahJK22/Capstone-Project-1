@@ -44,9 +44,10 @@ body{
     box-shadow: 0 3px 9px 3px rgba(0,  0, 0, .1);
 }
 
-.navbar{
-    
-}
+.bg-dark {
+    background-color: black !important;
+  }
+
 /*--==Header==--*/
 #header{
     background: url(/images/DreamOfBeatingMe.jpg) top/cover no-repeat;
@@ -57,11 +58,192 @@ body{
     font-family: var(--lg-font)
 }
 
-/*--==Curated Products Line--==*/
-
-
 /*--==All Product Page Style==--*/
+#hero {
+    height:100vh;
+    width:100%;
+    background:rgb(0, 0, 0);
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    overflow: hidden;
+}
 
+#hero video {
+width:100%;
+height:100%;
+position:absolute;
+top:0;
+left:0;
+z-index:0;
+object-fit:cover;
+}
+
+
+
+#hero .caption {
+
+position:relative;
+z-index:0;
+text-align:center;
+color:#ffffff;
+}
+
+
+
+#hero .caption h1 {
+
+text-transform: uppercase;
+font-size:2em;
+font-family: 'Oswald', sans-serif;
+margin-bottom:0.5rem;
+z-index: 10;
+}
+
+#hero .caption h2 {
+font-weight:400;
+font-size:1.5rem;
+margin:0;
+font-family: 'PT Sans', sans-serif;
+z-index:10
+}
+
+
+
+
+@media screen and (min-width:768px)
+{
+#hero .caption h1 {
+    font-size:2.5rem;
+}
+
+#hero .caption h2 {
+    font-size:1.75rem;
+}
+}
+
+
+
+
+@media screen and (min-width:992px)
+{
+#hero .caption h1 {
+    font-size:3rem;
+}
+
+#hero .caption h2 {
+    font-size:2rem;
+}
+}
+
+
+
+@media screen and (min-width:1200px)
+{
+#hero .caption h1 {
+    font-size:4rem;
+}
+
+#hero .caption h2 {
+    font-size:2.5rem;
+}
+}
+
+.section-products #product-1B .part-1::before {
+    background: url(/images/Everlast-Black-Glove.jpg) no-repeat center;
+    background-size: cover;
+		transition: all 0.3s;
+}
+
+.section-products #product-2B .part-1::before {
+    background: url(/images/buakaw-boxing-gloves.webp) no-repeat center;
+    background-size: cover;
+		transition: all 0.3s;
+}
+
+.section-products #product-3B .part-1::before {
+    background: url(/images/Hayabusa-T3-Pearl.jpg) no-repeat center;
+    background-size: cover;
+		transition: all 0.3s;
+}
+
+.section-products #product-4B .part-1::before {
+    background: url(/images/Grant_B&W.jpg) no-repeat center;
+    background-size: cover;
+		transition: all 0.3s;
+}
+
+.section-products #product-5B .part-1::before {
+    background: url(/images/Boxraw_Wrap_Black.webp) no-repeat center;
+    background-size: cover;
+		transition: all 0.3s;
+}
+
+.section-products #product-6B .part-1::before {
+    background: url(/images/Boxraw_Wrap_White.webp) no-repeat center;
+    background-size: cover;
+		transition: all 0.3s;
+}
+
+.section-products #product-7B .part-1::before {
+    background: url(/images/Boxraw_Wrap_Red.webp) no-repeat center;
+    background-size: cover;
+		transition: all 0.3s;
+}
+
+.section-products #product-8B .part-1::before {
+    background: url(/images/Boxraw_Wrap_GreyGreen.webp) no-repeat center;
+    background-size: cover;
+		transition: all 0.3s;
+}
+
+.section-products #product-9B .part-1::before {
+    background: url(/images/Blegend_SockGuard_Red.webp) no-repeat center;
+    background-size: cover;
+		transition: all 0.3s;
+}
+
+.section-products #product-10B .part-1::before {
+    background: url(/images/buakaw-shinguards-white-.webp) no-repeat center;
+    background-size: cover;
+		transition: all 0.3s;
+}
+
+.section-products #product-11B .part-1::before {
+    background: url(/images/Yokkao_white.webp) no-repeat center;
+    background-size: cover;
+		transition: all 0.3s;
+}
+
+.section-products #product-12B .part-1::before {
+    background: url(/images/Hayabusa_T3_Guards.webp) no-repeat center;
+    background-size: cover;
+		transition: all 0.3s;
+}
+
+.section-products #product-13B .part-1::before {
+    background: url(/images/Adidas_Boxhog_4.webp) no-repeat center;
+    background-size: cover;
+		transition: all 0.3s;
+}
+
+.section-products #product-14B .part-1::before {
+    background: url(/images/superare_shoes_black.webp) no-repeat center;
+    background-size: cover;
+		transition: all 0.3s;
+}
+
+.section-products #product-15B .part-1::before {
+    background: url(/images/NoBull_White.webp) no-repeat center;
+    background-size: cover;
+		transition: all 0.3s;
+}
+
+.section-products #product-16B .part-1::before {
+    background: url(/images/HyperKO.webp) no-repeat center;
+    background-size: cover;
+		transition: all 0.3s;
+}
 
 /*--==Gloves Page Style==--*/
 
@@ -79,6 +261,29 @@ body{
 
 
 /*--==User Registration Page Style==--*/
+.HeadUR {
+
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    background: url(/images/movie-rocky-motivational-quote-wallpaper-preview.jpg);
+    background-size: cover;
+}
+
+.containerUR {
+    width: 700px;
+    max-width: 700px;
+    margin: 1rem;
+    padding: 2rem;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+    border-radius: var(--border-radius);
+    background: #ffffff;
+}
+
+/*--==Curated Products Line--==*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 
 body {
@@ -136,29 +341,49 @@ a:hover {
 }
 
 /*--==Product Images==--*/
-
+/*Product image zoom & rotate ratio*/
 .section-products .single-product:hover .part-1::before {
 		transform: scale(1.2,1.2) rotate(5deg);
 }
 
 .section-products #product-1 .part-1::before {
-    background: url(/images/Everlast-Black-Glove.jpg) no-repeat center;
+    background: url(/images/buakaw-boxing-gloves.webp) no-repeat center;
     background-size: cover;
 		transition: all 0.3s;
 }
 
 .section-products #product-2 .part-1::before {
-    background: url(/images/buakaw-boxing-gloves.webp) no-repeat center;
+    background: url(/images/Grant_B&W.jpg) no-repeat center;
     background-size: cover;
 }
 
 .section-products #product-3 .part-1::before {
-    background: url(/images/Hayabusa-T3-Pearl.jpg) no-repeat center;
+    background: url(/images/Boxraw_Wrap_GreyGreen.webp) no-repeat center;
     background-size: cover;
 }
 
 .section-products #product-4 .part-1::before {
-    background: url(/images/Grant_B&W.jpg) no-repeat center;
+    background: url(/images/Boxraw_Wrap_Red.webp) no-repeat center;
+    background-size: cover;
+}
+
+.section-products #product-1A .part-1::before {
+    background: url(/images/Hayabusa_T3_Guards.webp) no-repeat center;
+    background-size: cover;
+}
+
+.section-products #product-2A .part-1::before {
+    background: url(/images/Yokkao_white.webp) no-repeat center;
+    background-size: cover;
+}
+
+.section-products #product-3A .part-1::before {
+    background: url(/images/Adidas_Boxhog_4.webp) no-repeat center;
+    background-size: cover;
+} 
+
+.section-products #product-4A .part-1::before {
+    background: url(/images/superare_shoes_black.webp) no-repeat center;
     background-size: cover;
 }
 
@@ -190,6 +415,7 @@ a:hover {
     transition: bottom 0.5s, opacity 0.5s;
 }
 
+/*Icon Popup when hover*/
 .section-products .single-product:hover .part-1 ul {
     bottom: 30px;
     opacity: 1;
@@ -200,6 +426,7 @@ a:hover {
     margin-right: 4px;
 }
 
+/*Icon Background Color*/
 .section-products .single-product .part-1 ul li a {
     display: inline-block;
     width: 40px;
@@ -245,8 +472,96 @@ a:hover {
 
 
 /*--==User Login Page Style==--*/
+
+.HeadL {
+
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    background: url(/images/Hanging_Gloves.jpg);
+    background-size: cover;
+}
+
+.containerL {
+    width: 400px;
+    max-width: 400px;
+    margin: 1rem;
+    padding: 2rem;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+    border-radius: var(--border-radius);
+    background: #ffffff;
+}
+
+.containerL,
+.form__inputL,
+.form__buttonL {
+    font: 500 1rem 'Quicksand', sans-serif;
+}
+
+.form__message--successL {
+    color: var(--color-success);
+}
+
+.form__message--errorL {
+    color: var(--color-error);
+}
+
+.form__input-groupL {
+    margin-bottom: 1rem;
+}
+
+.form__inputL {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    box-sizing: border-box;
+    border-radius: var(--border-radius);
+    border: 1px solid #dddddd;
+    outline: none;
+    background: #eeeeee;
+}
+
+.form__inputL:focus {
+    border-color: var(--color-primary);
+    background: #ffffff;
+}
+
+.form__button {
+    width: 100%;
+    padding: 1rem 2rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #ffffff;
+    border: none;
+    border-radius: var(--border-radius);
+    outline: none;
+    cursor: pointer;
+    background: var(--color-primary);
+}
+
+.form__button:hover {
+    background: var(--color-primary-dark);
+}
+
+.form__button:active {
+    transform: scale(0.98);
+}
+
+.form__text {
+    text-align: center;
+}
+
+.form__link {
+    color: var(--color-secondary);
+    text-decoration: none;
+    cursor: pointer;
+}
+/*--==Work in progress
 .bgL{
-   background: url(/images/creed-ii-walkout.webp) top/cover no-repeat; width:100%; height:100vh
+   background: url() top/cover no-repeat; width:100%; height:100vh
 }
 .Form-ContainerL{
     border:1px solid white; padding: 50px 40px; margin-top: 20vh;
@@ -256,5 +571,40 @@ box-shadow: 7px 24px 18px -4px rgba(0,0,0,0.75)
     
 }
 
+.btnS {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: #303030;
+    cursor: pointer;
+    outline: none;
+}
 
+.form__text {
+    text-align: center;
+}
+
+.Mcontainer{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: #ff0303;
+    cursor: pointer;
+    outline: none;
+}
+==--*/
 /*--==Checkout Page Style==--*/
+#CheckC {
+    padding: 60px 40px;
+    margin-top: 
+}
+
+.grant{
+    width: 5px
+}

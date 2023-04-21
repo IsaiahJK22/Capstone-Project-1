@@ -16,68 +16,195 @@
 
 <Body>
 <!--==NavBar==-->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"> <img src="images/Team_Corgi_Logo.webp" width="100px"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="About.html">About Us</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="AllProduct.html">All Products</a></li>
-                  <li><a class="dropdown-item" href="Gloves.html">Gloves</a></li>
-                  <li><a class="dropdown-item" href="Wraps.html">Wraps</a></li>
-                  <li><a class="dropdown-item" href="Shin-Guards.html">Shin Guards</a></li>
-                  <li><a class="dropdown-item" href="Shoes.html">Shoes</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="Tutorials.html">Tutorials</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
-              </li>
+<nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"> <img src="images/Play_Boxing.webp" width="100px"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="About.html">About Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="AllProduct.html">All Products</a></li>
+              <li><a class="dropdown-item" href="Gloves.html">Gloves</a></li>
+              <li><a class="dropdown-item" href="Wraps.html">Wraps</a></li>
+              <li><a class="dropdown-item" href="Shin-Guards.html">Shin Guards</a></li>
+              <li><a class="dropdown-item" href="Shoes.html">Shoes</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="Tutorials.html">Tutorials</a></li>
             </ul>
-            </form>
-        </nav>
+          </li>
+        </ul>
+    </nav>
+    <!--==End Of Navbar==-->
 
-<header>
+    <header class="HeadL"> 
+        <div class="containerL">
+        <form class="formL" id="login">
+            <h1 class="form__titleL">Welcome Back, Champ!</h1>
+            <div class="form__input-groupL">
+                <input type="text" class="form__inputL" autofocus placeholder="Username or email" required>
+            </div>
+            <div class="form__input-groupL">
+                <input type="password" class="form__inputL" autofocus placeholder="Password" minlength="16">
+            </div>
+            <button class="form__buttonL" type="submit">Continue</button>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox">Remember Me
+                </label>
+            </div>
+            <p class="form__text">
+                <a class="form__link" href="User-Registration.html" id="linkCreateAccount">Don't have an account? Create account</a>
+            </p>
+        </form>
+        </form>
+    </div>
+</header>
+
+<!--==Work in Progress
+    <header>
     <div class="container-fluid bgL">
     <div class="row">
         <div class="col-md-4 col-sm-4 col-xs-12"></div>
         <div class="col md-4 col-sm-4 col-xs12">
 <form class="Form-ContainerL">
-    <h1>Member Login</h1>
+    <h1>Welcome Back Champ!</h1>
     <div class="form-group">
         <label for="ExampleInputEmail">Email</label>
-        <input type="email" class="form-control" id="ExampleInputEmail" placeholder="Email">
+        <input type="email" class="form-control" id="ExampleInputEmail" placeholder="Email" required>
     </div>
     <div class="form-group">
         <label for="ExampleInputPassword1">Password</label>
-        <input type="password" class="form-control" id="ExampleInputPassword1" placeholder="Password">
+        <input type="password" class="form-control" id="ExampleInputPassword1" placeholder="Password" minlength="16">
     </div>
     <div class="checkbox">
         <label>
             <input type="checkbox">Remember Me
         </label>
     </div>
-    <button type="submit" class="btn btn-success btn-block">Submit</button>
+    <button type="submit" class="btnS btn-success btn-block">Submit</button>
 </form>
 </div>
 <div class="col-md-4 col-sm-4 col-xs-12"></div>
 </div>
+<div>
+    <div class="Mcontainer">
+    <a href="User-Registration.html">
+        <p class="form_text">
 <h1>Not a member yet? Start your journey today!</h1>
+        </p>
+
+</a>
+</div>
+</div>
+</div>
 </header>
+==-->
+<!-- footer -->
+<footer class = "bg-dark py-5">
+    <div class = "container">
+        <div class = "row text-white g-4">
+            <div class = "col-md-6 col-lg-3">
+                <a class = "text-uppercase text-decoration-none brand text-white" href = "index.html">Want to be featured on our website?</a>
+                <p class = "text-white text-muted mt-3">Send a picture of you in your favorite gear/gym to our email or post it on any of our socials for a chance to be featured on our website and win free</p>
+            </div>
+  
+            <div class = "col-md-6 col-lg-3">
+                <h5 class = "fw-light">Links</h5>
+                <ul class = "list-unstyled">
+                    <li class = "my-3">
+                        <a href = "index.html" class = "text-white text-decoration-none text-muted">
+                            <i class = "fas fa-chevron-right me-1"></i> Home
+                        </a>
+                    </li>
+                    <li class = "my-3">
+                        <a href = "AllProduct.html" class = "text-white text-decoration-none text-muted">
+                            <i class = "fas fa-chevron-right me-1"></i> Curated Collection
+                        </a>
+                    </li>
+                    <li class = "my-3">
+                        <a href = "#" class = "text-white text-decoration-none text-muted">
+                            <i class = "fas fa-chevron-right me-1"></i> Our Fighters
+                        </a>
+                    </li>
+                    <li class = "my-3">
+                        <a href = "About.html" class = "text-white text-decoration-none text-muted">
+                            <i class = "fas fa-chevron-right me-1"></i> About Us
+                        </a>
+                    </li>
+                </ul>
+            </div>
+  
+            <div class = "col-md-6 col-lg-3">
+                <h5 class = "fw-light mb-3">Contact Us</h5>
+                <div class = "d-flex justify-content-start align-items-start my-2 text-muted">
+                    <span class = "me-3">
+                        <i class = "fas fa-map-marked-alt"></i>
+                    </span>
+                    <span class = "fw-light">
+                        Nowhere, Somewhere
+                    </span>
+                </div>
+                <div class = "d-flex justify-content-start align-items-start my-2 text-muted">
+                    <span class = "me-3">
+                        <i class = "fas fa-envelope"></i>
+                    </span>
+                    <span class = "fw-light">
+                        CuratedCombat.support@gmail.com
+                    </span>
+                </div>
+                <div class = "d-flex justify-content-start align-items-start my-2 text-muted">
+                    <span class = "me-3">
+                        <i class = "fas fa-phone-alt"></i>
+                    </span>
+                    <span class = "fw-light">
+                        +1(000)000-0000
+                    </span>
+                </div>
+            </div>
+  
+            <div class = "col-md-6 col-lg-3">
+                <h5 class = "fw-light mb-3">Follow Us</h5>
+                <div>
+                    <ul class = "list-unstyled d-flex">
+                        <li>
+                            <a href = "#" class = "text-white text-decoration-none text-muted fs-4 me-4">
+                                <i class = "fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#" class = "text-white text-decoration-none text-muted fs-4 me-4">
+                                <i class = "fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#" class = "text-white text-decoration-none text-muted fs-4 me-4">
+                                <i class = "fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#" class = "text-white text-decoration-none text-muted fs-4 me-4">
+                                <i class = "fab fa-pinterest"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+  </footer>
+  <!-- end of footer -->
 
 
 
