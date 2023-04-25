@@ -1,4 +1,6 @@
 # Capstone-Project-1
+
+This is my first capstone project that I made utilizing HTML, CSS & Bootstrap. I was continuously learning about newe featurea and improving my code throughout the project.
  
  <--==Beginning of Home Page==-->
  Home Page
